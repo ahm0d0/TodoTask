@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">ToDo-List</h1>
+      <div class="todo-app">
+        <input type="text" id="new-task" placeholder="add a new-task.." />
+        <button id="add-task">Add</button>
+        <ul id="task-list"></ul>
+      </div>
+    </div>
+    <!-- Message Container -->
+    <div id="message-container">
+      <span id="edit-message" class="message hidden"
+        >Task edited successfully.</span
+      >
+      <span id="add-message" class="message hidden"
+        >Task Added successfully.</span
+      >
+      <span id="empty-message" class="message hidden"
+        >The input is empty !</span
+      >
+      <span id="delete-message" class="message hidden"
+        >Task deleted successfully.</span
+      >
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
